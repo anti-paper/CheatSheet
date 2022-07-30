@@ -7,3 +7,7 @@ Apache起動→コマンド「sudo systemctl start httpd」実行
 インスタンス起動時自動でApache起動→コマンド「sudo systemctl enable httpd」実行
 Apache起動状況確認→コマンド「sudo systemctl is-enabled httpd」実行
 公開ファイル置き場→/var/www/html/
+ローカルタイムの設定→コマンド「sudo ln -sf /usr/share/zoneinfo/Japan /etc/localtime」実行
+PHPインストール→コマンド「sudo yum -y install php」実行
+PHP設定ファイルバックアップ→コマンド「sudo cp /etc/php.ini /etc/php.bak」実行
+Apache再起動→コマンド「sudo systemctl restart httpd」実行
