@@ -11,3 +11,5 @@ Apache起動状況確認→コマンド「sudo systemctl is-enabled httpd」実�
 PHPインストール→コマンド「sudo yum -y install php」実行
 PHP設定ファイルバックアップ→コマンド「sudo cp /etc/php.ini /etc/php.bak」実行
 Apache再起動→コマンド「sudo systemctl restart httpd」実行
+PHP設定変更→コマンド「sudo vim /etc/php.ini」実行（Vim起動→php.ini修正）
+→「error_reporting」に「& ~E_NOTICE」追加→「display_errors」を「Off」から「On」へ変更
