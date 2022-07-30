@@ -1,5 +1,5 @@
 ec2→linux2,新規セキュリティグループ
-セキュリティグループ→http(22),https(443)追加→ssh(80)削除
+セキュリティグループ→http(80),https(443)追加→ssh(22)削除
 IAMロール→「ssmmanaged」検索→アタッチ→インスタンス再起動
 ソフトウェアアップデート→コマンド「sudo yum -y update」実行
 Apacheインストール→コマンド「sudo yum -y install httpd」実行
