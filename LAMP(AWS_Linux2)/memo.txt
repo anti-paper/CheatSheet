@@ -22,3 +22,8 @@ MySQL設定→コマンド「sudo mysql-secure-installation」実行
 MySQL文字コード設定変更→コマンド「sudo vim /etc/my.cnf」実行（Vim起動→my.cnf修正）
 →「character-set-server」を「utf8」へ変更
 MySQL再起動→コマンド「sudo systemctl restart mysqld」実行
+phpMyAdminのダウンロード先追加→コマンド「sudo yum-config-manager --enable epel」実行
+phpMyAdminインストール→コマンド「sudo yum -y install phpmyadmin」実行
+phpMyAdminアクセス制限設定変更→コマンド「sudo vim /etc/httpd/conf.d/phpMyAdmin.conf」実行（Vim起動→phpMyAdmin.conf修正）
+→「127.0.0.1」をwebサーバのグローバルIPアドレスへ変更
+Apache再起動→コマンド「sudo systemctl restart httpd」実行
