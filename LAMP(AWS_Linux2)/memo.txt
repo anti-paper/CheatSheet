@@ -26,5 +26,5 @@ phpMyAdmin依存ファイルインストール→コマンド「sudo yum -y inst
 Apache再起動→コマンド「sudo systemctl restart httpd」実行
 Apacheドキュメントルートに移動→コマンド「cd /var/www/html/」実行
 最新のphpMyAdminリリース用のソースパッケージをダウンロード→コマンド「sudo wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz」実行
-phpMyAdminフォルダの作成及びパッケージの展開→コマンド「sudo mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1」実行
+phpMyAdminフォルダの作成及びパッケージの展開→コマンド「sudo mkdir phpMyAdmin && sudo tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1」実行
 展開前パッケージの削除→コマンド「sudo rm phpMyAdmin-latest-all-languages.tar.gz」実行
