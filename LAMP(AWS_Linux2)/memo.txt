@@ -22,14 +22,9 @@ MySQL設定→コマンド「sudo mysql_secure_installation」実行
 MySQL文字コード設定変更→コマンド「sudo vim /etc/my.cnf」実行（Vim起動→my.cnf修正）
 →10行目に「character-set-server=utf8」を追記
 MySQL再起動→コマンド「sudo systemctl restart mariadb」実行
-phpMyAdminのダウンロード先追加→コマンド「sudo yum-config-manager --enable epel」実行
 phpMyAdmin依存ファイルインストール→コマンド「sudo yum -y install php-mbstring php-xml」実行
 Apache再起動→コマンド「sudo systemctl restart httpd」実行
-php-fpm再起動→コマンド「sudo systemctl restart php-fpm」実行
 Apacheドキュメントルートに移動→コマンド「cd /var/www/html/」実行
-最新のphpMyAdminリリース用のソースパッケージをダウンロード→コマンド「wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz」実行
-phpMyAdminフォルダの作成及びパッケージの展開→コマンド「mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1」実行
-展開前パッケージの削除→コマンド「rm phpMyAdmin-latest-all-languages.tar.gz」実行
-phpMyAdminアクセス制限設定変更→コマンド「sudo vim /etc/httpd/conf.d/phpMyAdmin.conf」実行（Vim起動→phpMyAdmin.conf修正）
-→「127.0.0.1」をwebサーバのグローバルIPアドレスへ変更
-Apache再起動→コマンド「sudo systemctl restart httpd」実行
+最新のphpMyAdminリリース用のソースパッケージをダウンロード→コマンド「sudo wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz」実行
+phpMyAdminフォルダの作成及びパッケージの展開→コマンド「sudo mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1」実行
+展開前パッケージの削除→コマンド「sudo rm phpMyAdmin-latest-all-languages.tar.gz」実行
