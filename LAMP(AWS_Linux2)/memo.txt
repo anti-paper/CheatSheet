@@ -13,3 +13,12 @@ PHP設定ファイルバックアップ→コマンド「sudo cp /etc/php.ini /e
 Apache再起動→コマンド「sudo systemctl restart httpd」実行
 PHP設定変更→コマンド「sudo vim /etc/php.ini」実行（Vim起動→php.ini修正）
 →「error_reporting」に「& ~E_NOTICE」追加→「display_errors」を「Off」から「On」へ変更
+MySQLインストール→コマンド「sudo yum -y install mysql-server」実行
+PHPのMySQLネイティブドライバインストール→コマンド「sudo yum -y install php-mysqlnd」実行
+MySQL起動→コマンド「sudo systemctl start mysqld」実行
+インスタンス起動時自動でMySQL起動→コマンド「sudo systemctl enable mysqld」実行
+MySQL起動状況確認→コマンド「sudo systemctl is-enabled mysqld」実行
+MySQL設定→コマンド「sudo mysql-secure-installation」実行
+MySQL文字コード設定変更→コマンド「sudo vim /etc/my.cnf」実行（Vim起動→my.cnf修正）
+→「character-set-server」を「utf8」へ変更
+MySQL再起動→コマンド「sudo systemctl restart mysqld」実行
