@@ -24,9 +24,6 @@ MySQL設定→コマンド「sudo mysql_secure_installation」実行→最初そ
 →他は全て「Y」Enter
 システムブート時自動でMySQL起動→コマンド「sudo systemctl enable mariadb」実行
 MySQL起動状況確認→コマンド「sudo systemctl is-enabled mariadb」実行
-MySQL文字コード設定変更→コマンド「sudo vim /etc/my.cnf」実行（Vim起動→my.cnf修正）
-→10行目に「character-set-server=utf8」を追記
-MySQL再起動→コマンド「sudo systemctl restart mariadb」実行
 phpMyAdmin依存ファイルインストール→コマンド「sudo yum install php-mbstring php-xml -y」実行
 Apache再起動→コマンド「sudo systemctl restart httpd」実行
 php-fpm再起動→コマンド「sudo systemctl restart php-fpm」実行
