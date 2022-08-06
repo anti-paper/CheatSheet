@@ -1,0 +1,5 @@
+#MySQLから
+set password for ユーザ名@ホスト名=password('新しいパスワード');
+
+#コマンドラインから（コマンド実行後現在のパスワード求められる）
+mysqladmin password 新しいパスワード -u ユーザ名 -p
