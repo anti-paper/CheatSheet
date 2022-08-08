@@ -1,0 +1,16 @@
+セキュリティグループ→カスタムTCPルール→5901（接続時に指定するポート番号）許可（安全のためマイパブリックIPのみ許可が望ましい）
+MATEデスクトップのインストール→コマンド「sudo amazon-linux-extras install -y mate-desktop1.x
+全ユーザに対し、MATEをデフォルトのデスクトップとして定義→コマンド「sudo bash -c 'echo PREFERRED=/usr/bin/mate-session>/etc/sysconfig/desktop'」実行
+TigerVNCパッケージのインストール→コマンド「sudo yum install -y tigervnc-server」実行
+VNCパスワード設定→コマンド「vncpasswd」実行→設定するパスワード入力（確認込みで2回）→閲覧用パスワード設定（yかnで回答）
+VNCサーバ用の新規sstemdユニット作成→コマンド「sudo cp /lib/systemd/system/vncserver\@.service /etc/systemd/system/vncserver\@.service」実行
+VNCサーバ用ユニットの全「<USER>」文字列をssm-userに置き換え→コマンド「sudo sed -i 's/<USER>/ssm-user/' /etc/systemd/system/vncserver\@.service」実行
+systemdマネージャ設定の再読み込み→コマンド「sudo systemctl daemon-reload」実行
+サービス有効化→コマンド「sudo systemctl enable vncserver@:1」実行
+サービス起動→コマンド「sudo systemctl start vncserver@:1」実行
+-------------------------------------ここからWin特有操作----------------------------------------------
+「TigerVNC」検索→サイトにアクセス
+→「GitHub release page.」リンク
+→ダウンロードリンク（「vncviewerビット数-バージョン番号.exe」）
+vncviewer起動→「EC2パブリックIP（DNS）:セキュリティグループで許可したポート番号」でConnect
+→vncpasswdで設定したパスワード入力
