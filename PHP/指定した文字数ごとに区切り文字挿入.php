@@ -1,1 +1,1 @@
-wordwrap($str,$n,$delim);
+wordwrap($str,$n,$delim,true);
