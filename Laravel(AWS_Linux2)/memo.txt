@@ -1,0 +1,2 @@
+composerインストール→コマンド「curl -sS https://getcomposer.org/installer | php」実行
+composerの移動＆名前変更→コマンド「sudo mv composer.phar /usr/local/bin/composer」実行
