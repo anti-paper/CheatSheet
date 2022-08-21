@@ -22,3 +22,4 @@ Form用ライブラリのインストール→コマンド「composer require la
 composer require laravel/ui --dev
 php artisan ui vue --auth
 登録済みルート確認→コマンド「php artisan route:list」実行
+カラム追加用ライブラリインストール→コマンド「composer require doctrine/dbal」実行
