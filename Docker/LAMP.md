@@ -41,26 +41,26 @@ LAMP環境構築するのに最初に見たページではこんな感じでや�
     version: ‘3’
 
     services:
-    mysql:
-    image: mysql:5.7
-    volumes:
-    – ./mysql:/var/lib/mysql
-    ports:
-    – 3306:3306
-    environment:
-    – MYSQL_ROOT_PASSWORD=pass
-    – MYSQL_DATABASE=db
-    – MYSQL_USER=user
-    – MYSQL_PASSWORD=dbpass
-    php:
-    build: ./php
-    volumes:
-    – ./php.ini:/usr/local/etc/php/php.ini
-    – ./html:/var/www/html
-    ports:
-    – 8080:80
-    depends_on:
-    – mysql
+        mysql:
+            image: mysql:5.7
+            volumes:
+                – ./mysql:/var/lib/mysql
+            ports:
+                – 3306:3306
+            environment:
+                – MYSQL_ROOT_PASSWORD=pass
+                – MYSQL_DATABASE=db
+                – MYSQL_USER=user
+                – MYSQL_PASSWORD=dbpass
+        php:
+            build: ./php
+            volumes:
+                – ./php.ini:/usr/local/etc/php/php.ini
+                – ./html:/var/www/html
+            ports:
+                – 8080:80
+            depends_on:
+                – mysql
     ~~~
     <br>
 

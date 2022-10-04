@@ -2,7 +2,8 @@
 
 # PowerQuery
 とりあえずまとめて書く<br>
-きつくなってきたらM言語とビジュアル操作分ける
+きつくなってきたらM言語とビジュアル操作分ける<br>
+[公式ドキュメント](https://learn.microsoft.com/ja-jp/power-query/)
 
 ## M言語
 - let<br>
