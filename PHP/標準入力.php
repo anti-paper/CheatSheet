@@ -1,1 +1,0 @@
-$s=rtrim(fgets(STDIN));

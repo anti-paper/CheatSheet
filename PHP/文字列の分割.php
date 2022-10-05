@@ -1,1 +1,0 @@
-explode($delim,$s);
