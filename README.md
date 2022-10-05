@@ -22,3 +22,5 @@
 - PowerAutomate
 - AWS
 - [Docker](Docker.md)
+- Git
+- Github
