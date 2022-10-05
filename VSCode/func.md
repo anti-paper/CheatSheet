@@ -1,4 +1,4 @@
-[Top](../README.md) > [Visual Studio Codeメモ](../vscode.md)
+[Top](../README.md) > [Visual Studio Codeメモ](../VSCode.md)
 
 # 機能
 「こんな機能あるよ」「この機能はこうやって使うよ」というメモ
