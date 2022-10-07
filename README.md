@@ -26,3 +26,5 @@
 - [ビジネスメモ](business.md)
 - Git
 - Github
+
+<strong style="color:red;">ドラフトプルリクのため付け加えた行</strong>
