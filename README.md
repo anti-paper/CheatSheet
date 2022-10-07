@@ -4,13 +4,13 @@
 ## 一覧
 - [MarkDown](MarkDown.md)
 - [Linux](Linux.md)
-- MySQL
-- PHP
+- [MySQL](MySQL.md)
+- [PHP](PHP.md)
 - C#
 - Python2
 - Python3
 - [Unity](Unity.md)
-- VSCode
+- [VSCode](VSCode.md)
 - VS
 - VB
 - [Excel](Excel.md)
@@ -21,4 +21,6 @@
 - PowerBI
 - PowerAutomate
 - AWS
+- [コマンドプロンプト](CMD.md)
 - [Docker](Docker.md)
+- [ビジネスメモ](business.md)
