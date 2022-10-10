@@ -1,3 +1,9 @@
+[Top](/README.md) > [AWS](/AWS.md)
+
+# Linux2でLAMP環境構築
+Linux2を使ってLAMP環境を構築する方法、その他便利な環境構築方法をご紹介
+
+
 ec2→linux2,新規セキュリティグループ
 セキュリティグループ→インバウンドにhttp(80),https(443)追加→ssh(22)削除
 IAMロール→「ssmmanaged」検索→アタッチ→インスタンス再起動

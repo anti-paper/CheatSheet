@@ -1,3 +1,9 @@
+[Top](/README.md) > [AWS](/AWS.md)
+
+# Linux2でLaravel環境構築
+Linux2を使ってLaravel環境を構築する方法、その他便利な環境構築方法をご紹介
+
+
 composerインストール→コマンド「curl -sS https://getcomposer.org/installer | php」実行
 composerの移動＆名前変更→コマンド「sudo mv composer.phar /usr/local/bin/composer」実行
 アプリケーション用ディレクトリ作成→コマンド「composer create-project laravel/laravel dName」実行（dNameはディレクトリ名）

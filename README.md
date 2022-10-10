@@ -20,7 +20,7 @@
 - Outlook
 - PowerBI
 - PowerAutomate
-- AWS
+- [AWS](AWS.md)
 - [コマンドプロンプト](CMD.md)
 - [Docker](Docker.md)
 - [ビジネスメモ](business.md)
