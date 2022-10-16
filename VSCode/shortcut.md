@@ -37,5 +37,9 @@
 |ファイル名によるクイック検索を開く|`Ctrl + P`|
 |現在開いているファイルのシンボルをあいまい検索|`Ctrl + Shift + O`|
 |すべてのファイルのシンボルをあいまい検索|`Ctrl + T`|
+|定義へ移動|`F12`|
+|定義を小窓に表示|`Alt + F12`|
+|定義を横に表示|`Ctrl + K F12`|
+|実装へ移動|`Ctrl + F12`|
 
-<strong style="font-size:200%;color:red;">続きは34Pから</strong>
+<strong style="font-size:200%;color:red;">続きは36Pから</strong>
