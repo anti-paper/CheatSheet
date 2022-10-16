@@ -28,5 +28,9 @@
 |ブロックコメントの設定、解除|`Alt + Shift + A`|
 |選択した行のインデントを1段深くする ／ 浅くする|`Tab ／ Shift + Tab`|
 |現在の行、もしくは選択した範囲のインデントを1段深くする ／ 浅くする|`Ctrl + ] ／ [`|
+|折り畳む ／ 展開する|`Ctrl + Shift + [ ／ ]`|
+|すべて折り畳む|`Ctrl + K Ctrl + 0`|
+|数値のレベルですべて折り畳む|`Ctrl + K Ctrl + 1～7`|
+|すべての折り畳みを展開する|`Ctrl + K Ctrl + J`|
 
 <strong style="font-size:200%;color:red;">続きは27Pから</strong>
