@@ -32,5 +32,8 @@
 |すべて折り畳む|`Ctrl + K Ctrl + 0`|
 |数値のレベルですべて折り畳む|`Ctrl + K Ctrl + 1～7`|
 |すべての折り畳みを展開する|`Ctrl + K Ctrl + J`|
+|ファイル内検索を表示<br>テキストが選択されている場合、そのテキストを検索|`Ctrl + F`|
+|次 ／ 前の検索結果に移動|`F3 ／ Shift + F3`|
+|ファイル名によるクイック検索を開く|`Ctrl + P`|
 
-<strong style="font-size:200%;color:red;">続きは27Pから</strong>
+<strong style="font-size:200%;color:red;">続きは31Pから</strong>
