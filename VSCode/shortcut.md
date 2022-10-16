@@ -24,5 +24,7 @@
 |現在の行、もしくは選択した範囲を1行上／下に移動|`Alt + ↑／↓`|
 |行単位で削除|`Ctrl + Shift + K`|
 |直前の単語の削除|`Ctrl + Backspace`|
+|ラインコメントの設定、解除|`Ctrl + /`|
+|ブロックコメントの設定、解除|`Alt + Shift + A`|
 
 <strong style="font-size:200%;color:red;">続きは27Pから</strong>
