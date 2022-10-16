@@ -35,5 +35,7 @@
 |ファイル内検索を表示<br>テキストが選択されている場合、そのテキストを検索|`Ctrl + F`|
 |次 ／ 前の検索結果に移動|`F3 ／ Shift + F3`|
 |ファイル名によるクイック検索を開く|`Ctrl + P`|
+|現在開いているファイルのシンボルをあいまい検索|`Ctrl + Shift + O`|
+|すべてのファイルのシンボルをあいまい検索|`Ctrl + T`|
 
-<strong style="font-size:200%;color:red;">続きは31Pから</strong>
+<strong style="font-size:200%;color:red;">続きは34Pから</strong>
