@@ -41,5 +41,10 @@
 |定義を小窓に表示|`Alt + F12`|
 |定義を横に表示|`Ctrl + K F12`|
 |実装へ移動|`Ctrl + F12`|
+|前のファイルへ戻る|`Alt + ←`|
+|戻るのやり直し（進む）|`Alt + →`|
+|コード自動補完（インテリセンス、Tabで確定）|`Ctrl + Space`|
+|画面分割（現在のタブを右へ移動）|`Ctrl + Alt + →`|
+|画面分割解除（現在のタブを左へ移動）|`Ctrl + Alt + ←`|
 
-<strong style="font-size:200%;color:red;">続きは36Pから</strong>
+<strong style="font-size:200%;color:red;">続きは42Pから</strong>

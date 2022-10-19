@@ -5,24 +5,31 @@
 - [MarkDown](MarkDown.md)
 - [Linux](Linux.md)
 - [MySQL](MySQL.md)
+- [HTML](HTML.md)
+- [CSS](CSS.md)
+- [JavaScript](JavaScript.md)
+- [VBScript](VBScript.md)
 - [PHP](PHP.md)
-- C#
-- Python2
-- Python3
+- [Java](Java.md)
+- [Swift](Swift.md)
+- [C#](CS.md)
+- [Python2](Python2.md)
+- [Python3](Python3.md)
 - [Unity](Unity.md)
-- [VSCode](VSCode.md)
-- VS
-- VB
+- [Android Studio](AndroidStudio.md)
+- [VSCode](VSCode.md) <!-- [Visual Studio Code](VisualStudioCode.md) -->
+- [Visual Studio](VisualStudio.md)
+- [Visual Basic](VisualBasic.md)
 - [Excel](Excel.md)
-- Word
-- PowerPoint
-- Access
-- Outlook
-- PowerBI
-- PowerAutomate
+- [Word](Word.md)
+- [PowerPoint](PowerPoint.md)
+- [Access](Access.md)
+- [Outlook](Outlook.md)
+- [PowerBI](PowerBI.md)
+- [PowerAutomate](PowerAutomate.md)
 - [AWS](AWS.md)
 - [コマンドプロンプト](CMD.md)
 - [Docker](Docker.md)
 - [ビジネスメモ](business.md)
-- Git
-- Github
+- [Git](Git.md)
+- [Github](Github.md)
