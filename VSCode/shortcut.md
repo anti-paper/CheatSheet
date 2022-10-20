@@ -46,5 +46,13 @@
 |コード自動補完（インテリセンス、Tabで確定）|`Ctrl + Space`|
 |画面分割（現在のタブを右へ移動）|`Ctrl + Alt + →`|
 |画面分割解除（現在のタブを左へ移動）|`Ctrl + Alt + ←`|
+|選択中の語句を、ドキュメントから全て選択|`Ctrl + Shift + L`|
+|カーソルの語句を全て選択|`Ctrl + F2`|
+|検索中の項目で次に一致する項目を選択に追加|`Ctrl + D`|
+|クリックした箇所にマルチカーソルを追加|`Alt + 左クリック`|
+|矩形に選択|`Alt + Shift + 左クリック`|
+|矩形選択を上／下／左／右に広げる|`Ctrl + Alt + Shift + ↑ ／ ↓ ／ → ／ ←`|
+|ソースコード全体をフォーマット|`Alt + Shift + F`|
+|選択した部分をフォーマット|`Ctrl + K Ctrl + F`|
 
-<strong style="font-size:200%;color:red;">続きは42Pから</strong>
+<strong style="font-size:200%;color:red;">続きは54Pから</strong>
