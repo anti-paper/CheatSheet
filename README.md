@@ -18,6 +18,7 @@
 - [Unity](Unity.md)
 - [Android Studio](AndroidStudio.md)
 - [VSCode](VSCode.md) <!-- [Visual Studio Code](VisualStudioCode.md) -->
+- [XCode](XCode.md)
 - [Visual Studio](VisualStudio.md)
 - [Visual Basic](VisualBasic.md)
 - [Excel](Excel.md)
@@ -33,3 +34,4 @@
 - [ビジネスメモ](business.md)
 - [Git](Git.md)
 - [Github](Github.md)
+- [Vagrant](Vagrant.md)
