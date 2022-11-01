@@ -8,6 +8,7 @@
 - [HTML](HTML.md)
 - [CSS](CSS.md)
 - [JavaScript](JavaScript.md)
+- [Vue.js](Vue.md)
 - [VBScript](VBScript.md)
 - [PHP](PHP.md)
 - [Java](Java.md)
@@ -17,7 +18,7 @@
 - [Python3](Python3.md)
 - [Unity](Unity.md)
 - [Android Studio](AndroidStudio.md)
-- [VSCode](VSCode.md) <!-- [Visual Studio Code](VisualStudioCode.md) -->
+- [Visual Studio Code](VSCode.md)
 - [XCode](XCode.md)
 - [Visual Studio](VisualStudio.md)
 - [Visual Basic](VisualBasic.md)
@@ -34,4 +35,5 @@
 - [ビジネスメモ](business.md)
 - [Git](Git.md)
 - [Github](Github.md)
+- [Windows Subsystem for Linux](WSL.md)
 - [Vagrant](Vagrant.md)
