@@ -6,3 +6,4 @@
 - [ファイル右クリックメニューに「codeで開く」追加](func/openwithcode.md)
 - [日本語化](func/japanese.md)
 - [デバッグ設定](func/Debug.md)
+- [タスク設定](func/Tasks.md)
