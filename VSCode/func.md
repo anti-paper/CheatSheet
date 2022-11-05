@@ -7,3 +7,4 @@
 - [日本語化](func/japanese.md)
 - [デバッグ設定](func/Debug.md)
 - [タスク設定](func/Tasks.md)
+- [スニペット](func/Snippets.md)
