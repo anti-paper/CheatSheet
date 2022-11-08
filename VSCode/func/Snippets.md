@@ -44,5 +44,3 @@ body要素に記述する<br>
 |$TM_FILENAME|ファイル名|
 |$TM_FILENAME_BASE|拡張子を除いたファイル名|
 <br><br>
-
-<strong style="font-size:200%;color:red;">続きは128Pから</strong>
