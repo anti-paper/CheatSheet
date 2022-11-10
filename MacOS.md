@@ -24,4 +24,6 @@
 |--|--|
 |画面ロック|control + command + Q|
 |ウィンドウ切り替え|command + Tab|
-|バックスラッシュ入力|option + \\\|
+|バックスラッシュ入力|option + `\`|
+|ファイル名変更|return|
+|ファイル削除|command + delete|
