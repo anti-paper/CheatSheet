@@ -3,7 +3,6 @@
 # Dockerfile
 Dockerfileの書き方よくわからんからネットで調べた内容メモしとく（一旦まとめたけど結局書き方よくわからん）<br>
 <strong style="color:red;">※Dockerfile内でcdしてもDockerfile内のファイルアクセス時には干渉しない（cd使いたい場合は「&&」で繋ぐ）</strong><br>
-[参考URL](https://docs.docker.jp/engine/reference/builder.html)
 <br><br>
 
 ## 各命令

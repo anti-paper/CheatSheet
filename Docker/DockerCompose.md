@@ -45,7 +45,7 @@ services:
 
 ## 設定内容
 |設定内容|docker runコマンド|docker-compose.yml|
-|:--|:--|:--|
+|--|--|--|
 |コンテナ名|--name|container_name|
 |環境変数|-e|environment|
 |ポートフォワード|-p|ports|

@@ -28,6 +28,3 @@
 |表組み|`\|header1\|header2\|header3\|`<br>`\|:--\|--:\|:--:\|`<br>`\|左寄せ\|右寄せ\|中央寄せ\|`|コード内のデータに記したように文字列を寄せることができる<br>GFM（Github Flavored Markdown）特有の記法<br>要はGithubでしか使えない|
 |「test」という文字列に「header」という見出しへのリンクを設定する|`[test](#header)`|見出しは大文字小文字区別しない（リンク設定時はすべて小文字にする必要あり）<br>スペースやアンダースコア等リンク設定時に指定できない文字あり（Ctrl + Spaceで呼び出せば間違いないので特に気にする必要なし）<br>見出しの深さに関係なくリンク設定時は「#」を1つだけ指定<br>GFM（Github Flavored Markdown）特有の記法<br>要はGithubでしか使えない|
 |重複する見出しへのリンクを設定する場合は、2回目以降に登場する見出しについては「-」（半角）の後に半角の数字を指定|`[test](#header-1)`|2回目の場合を1として、1ずつ増やしていく<br>1回目の場合は数字指定なしでそのまま項目名指定<br>GFM（Github Flavored Markdown）特有の記法<br>要はGithubでしか使えない|
-
-## 公式ドキュメント
-[それっぽいヤツ](https://daringfireball.net/projects/markdown/)
