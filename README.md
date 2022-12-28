@@ -38,3 +38,4 @@
 - [Github](Github.md)
 - [Windows Subsystem for Linux](WSL.md)
 - [Vagrant](Vagrant.md)
+- [Vim](Vim.md)
