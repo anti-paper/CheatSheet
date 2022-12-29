@@ -39,3 +39,4 @@
 - [Windows Subsystem for Linux](WSL.md)
 - [Vagrant](Vagrant.md)
 - [Vim](Vim.md)
+- [Laravel](laravel.md)

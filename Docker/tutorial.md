@@ -12,13 +12,15 @@ GitBashでエラー出る場合はコマンドプロンプトで試してみ<br>
 |--|--|--|
 |Dockerについての情報確認|`docker info`|-|
 |ローカル環境のDockerイメージの一覧確認|`docker images`|-|
+|ローカル環境のDockerイメージの一覧確認（イメージ名のみ）|`docker images -q`|-|
 |ローカル環境のDockerコンテナの一覧確認|`docker ps -a`|「-a」を省略すると起動中のコンテナのみ表示|
+|ローカル環境のDockerコンテナの一覧確認（コンテナ名のみ）|`docker ps -a -q`|「-a」を省略すると起動中のコンテナのみ表示|
 |「image」という名前のDockerイメージをダウンロード（ダウンロード未了の場合）、コンテナ起動|`docker run image`|「-d」付けるとバックグラウンド実行（基本これでいい気がする）<br>「--name」でコンテナ名指定できる<br>「-p hostIP:containerIP」でホスト側IP（外部からアクセスする際のIP）とコンテナ側のIP設定できる<br>「-v hostPath:containerPath」でそれぞれのパスを共有設定|
 |「image」という名前のDockerイメージをダウンロード|`docker pull image`|-|
 |「container」という名前のDockerコンテナを起動|`docker start container`|-|
 |「container」という名前のDockerコンテナを停止|`docker stop container`|-|
-|「container」という名前（またはID）のDockerコンテナを削除|`docker rm container`|起動中に削除する場合は「-f」オプション付ける|
-|「image」という名前（またはID）のDockerイメージを削除|`docker rmi image`|-|
+|「container」という名前（またはID）のDockerコンテナを削除|`docker rm container`|起動中に削除する場合は「-f」オプション付ける<br>`dokcer ps -a -q`の結果をコンテナ名に指定することで一括削除可能<br>`dokcer rm 'docker ps -a -q'`|
+|「image」という名前（またはID）のDockerイメージを削除|`docker rmi image`|`dokcer images -q`の結果をイメージ名に指定することで一括削除可能<br>`dokcer rmi 'docker images -q'`|
 |「container」という名前のコンテナにログイン|`docker exec -it container bash`|コンテナ内でBash実行できる|
 |「container」という名前のコンテナをもとに「image」という名前のイメージを作成|`docker commit container image`|-|
 |ホスト側の「hostFile」という名前のファイルを「container」という名前のコンテナの「containerDirというディレクトリへコピー」|`docker cp hostFile container:containerDir`|-|

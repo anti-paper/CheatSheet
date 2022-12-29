@@ -26,5 +26,23 @@
       1. コンテナ起動
          1. `./vendor/bin/sail up -d`
 1. ./vendor/bin/sailに別名付ける（一般的には「sail」）
-   1. プロジェクトディレクトリ直下の/.bashrcファイル（なければ作成）にエイリアス追記
+   1. ホームディレクトリ直下の~/.bashrcファイルの最後にエイリアス追記
       1. `alias sail './vendor/bin/sail'`
+1. phpMyAdminインストール
+   1. docker-compose.ymlのserviceブロック内に下記を追記
+      ```
+      phpmyadmin:
+         imgae: phpmyadmin/phpmyadmin
+         links:
+            - mysql:mysql
+         ports:
+            - 8080:80
+         environment:
+            PMA_USER: "${DB_USERNAME}"
+            PMA_PASSWORD: "${DB_PASSWORD}"
+            PMA_HOST: mysql
+         networks:
+            - sail
+      ```
+      portsは:以前がネイティブのポート番号（ブラウザ等でアクセスするポート番号）で、:以降がコンテナ内のポート番号<br>
+      PMA_USERとPMA_PASSWORDを上記のように設定することで、phpMyAdminにアクセスした際に自動でログインされる
